@@ -12,7 +12,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -44,6 +43,12 @@ img {
   vertical-align: middle;
 }
 
+.hero {
+  background-color: rgb(247, 222, 245);
+  padding: 120px 20px;
+  text-align: center;
+}
+
 .navigation-links {
   display: flex;
   margin-top: 40px;
@@ -68,6 +73,7 @@ img {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
