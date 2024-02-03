@@ -6,11 +6,6 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-body {
-  margin: 30px auto;
-  max-width: 960px;
-}
-
 h1,
 h2,
 h3 {
@@ -35,11 +30,47 @@ p {
   font-family: var(--default-font-family);
 }
 
-/* img {
-  vertical-align: middle;
-} */
+nav {
+  padding: 25px 0;
+}
+
+.logo {
+  max-height: 60px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  line-height: 60px;
+  margin-left: 25px;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+}
+
+nav a:hover,
+nav a.active {
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
 
 .hero {
+  background-color: var(--secondary-color);
+  padding: 60px 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+nav a .hero {
   background-color: var(--secondary-color);
   padding: 120px 20px;
   text-align: center;
@@ -95,6 +126,11 @@ p {
   padding: 15px 30px;
 }
 
+.btn-branding:hover {
+  border: 2px solid var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
 .btn-branding a {
   text-decoration: none;
 }
@@ -104,35 +140,9 @@ p {
   color: var(--branding-color);
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
-}
-
-.email-link:hover {
-  text-decoration: underline;
-}
-
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+.btn-branding-outline:hover {
+  background-color: var(--branding-color);
   color: white;
-}
-
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
 }
 
 .project-description {
@@ -146,6 +156,10 @@ p {
   }
   h2 {
     font-size: 40px;
+  }
+  nav a {
+    font-size: 12px;
+    margin-left: 5px;
   }
   .hero {
     padding: 60px 10px;
