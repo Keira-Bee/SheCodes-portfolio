@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front-end developer - Keira Burlinson</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,54 +26,62 @@
       src="https://kit.fontawesome.com/3debeba2c6.js"
       crossorigin="anonymous"
     ></script>
+    <title>About Keira Burlinson, front-end developer - Keira Burlinson</title>
     <meta
       name="description"
       content="About page for front-end developer portfolio - Keira Burlinson"
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Keira Burlinson</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                href="index.html"
-                title="Home"
+    <div class="container">
+      <nav>
+        <div class="d-flex justify-content-between">
+          <a href="index.html"
+            ><img
+              src="images/logo.png"
+              alt="SheCodes logo"
+              class="logo d-none d-md-block"
+              title="Homepage"
+            />
+          </a>
+          <img
+            src="images/logo-small.jpg"
+            alt="small SheCodes logo"
+            class="logo d-block d-md-none"
+            title="Homepage"
+          />
+          <ul>
+            <li>
+              <a href="index.html" title="Keira Burlinson's portfolio homepage"
                 >Home</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="about.html" title="About Me"
-                >About Me</a
+            <li>
+              <a
+                href="about.html"
+                class="active"
+                title="Keira Burlinson's portfolio about page"
+                >About</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="work.html" title="Work">Work</a>
+            <li>
+              <a
+                href="work.html"
+                title="Keira Burlinson's portfolio projects page"
+                >Work</a
+              >
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html" title="Contact Me"
-                >Contact Me</a
+            <li>
+              <a
+                href="contact.html"
+                title="Keira Burlinson's portfolio contact page"
+                >Contact</a
               >
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
     <div class="content-container">
       <div class="row">
         <div class="col-lg-6">
@@ -92,19 +99,74 @@
               Please get in touch if you'd like to find out more about me and my
               ongoing career journey.
             </p>
-            <a href="#" class="btn btn-branding mt-5">My projects</a>
+            <a
+              href="work.html"
+              class="btn btn-branding mt-5"
+              title="Link my projects page"
+              >My projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6 d-none d-lg-block">
-          <img src="images/keira.jpg" class="img-fluid rounded" alt="" />
+          <img
+            src="images/keira-square.jpg"
+            class="img-fluid rounded keira-photo"
+            alt="Photo of Keira Burlinson"
+          />
         </div>
       </div>
     </div>
-    <div id="contact" class="d-flex flex-column mb-2 mt-3 text-center">
-      <h2>📮 Contact me</h2>
-      <a href="mailto:keira.a.burlinson@gmail.com" class="email-link">
-        keira.a.burlinson@gmail.com
-      </a>
-    </div>
+    <footer class="container">
+      <div class="contact-box mb-5 d-none d-md-flex justify-content-between">
+        <div>
+          <h3>Work enquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Keira's contact page"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:keira.a.burlinson@gmail.com"
+          class="email-link"
+          title="Keira's email-link"
+          >keira.a.burlinson@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/keira-bee"
+          target="_blank"
+          title="Keira's GitHub profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/keiraburlinson"
+          target="_blank"
+          title="Keira's LinkedIn profile"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/miss_keira_b"
+          target="_blank"
+          title="Keira's Instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This website was coded by Keira Burlinson and is
+        <a
+          href="https://github.com/Keira-Bee/SheCodes-portfolio"
+          title="Keira Burlinson's GitHub profile"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

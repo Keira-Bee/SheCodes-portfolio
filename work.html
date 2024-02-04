@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Front-end developer - Keira Burlinson</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -27,13 +26,14 @@
       src="https://kit.fontawesome.com/3debeba2c6.js"
       crossorigin="anonymous"
     ></script>
+    <title>Recent projects - Keira Burlinson</title>
     <meta
       name="description"
       content="About page for front-end developer portfolio - Keira Burlinson"
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Keira Burlinson</a>
         <button
@@ -74,37 +74,109 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
+    <div class="container">
+      <nav>
+        <div class="d-flex justify-content-between">
+          <a href="/"
+            ><img
+              src="images/logo.png"
+              alt="SheCodes logo"
+              class="logo d-none d-md-block"
+              title="Homepage"
+            />
+          </a>
+          <img
+            src="images/logo-small.jpg"
+            alt="small SheCodes logo"
+            class="logo d-block d-md-none"
+            title="Homepage"
+          />
+          <ul>
+            <li>
+              <a href="/" title="Keira Burlinson's portfolio homepage">Home</a>
+            </li>
+            <li>
+              <a
+                href="about.html"
+                title="Keira Burlinson's portfolio about page"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="work.html"
+                class="active"
+                title="Keira Burlinson's portfolio projects page"
+                >Work</a
+              >
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                title="Keira Burlinson's portfolio contact page"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="content-container">
       <div class="content">
         <h1 class="mb-4">Look through the projects I've been working on</h1>
         <div class="row">
           <div class="col-md-6 mb-4">
-            <img
-              src="images/guitar-project.png"
-              alt=""
-              class="img-fluid rounded"
-            />
-            <h3 class="text-center mb-0">Guitar project</h3>
+            <a
+              href="https://www.shecodes.io/cohorts/shecodes-basics-f5026ebf-e3fb-48bb-b1e2-599c0d153088/projects/1707503"
+              target="_blank"
+              title="Link to Keira's dachshund webpage, hosted on SheCodes.io website"
+              ><img
+                src="images/dachshund-project.png"
+                alt=""
+                class="img-fluid rounded project-image"
+            /></a>
+            <h3 class="text-center mb-0">Dachshund webpage</h3>
             <p class="text-center text-muted">Created with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-4">
-            <img
-              src="images/my-weather-app.png"
-              alt=""
-              class="img-fluid rounded"
-            />
+            <a
+              href="https://www.shecodes.io/cohorts/shecodes-basics-add-on-2f1ff4d1-7aaa-4aa7-8b1c-6cad34ed8927/projects/1722368"
+              target="_blank"
+              title="Link to Keira's guitar webpage, hosted on SheCodes.io website"
+              ><img
+                src="images/guitar-project.png"
+                alt=""
+                class="img-fluid rounded project-image"
+            /></a>
+            <h3 class="text-center mb-0">Guitar webpage</h3>
+            <p class="text-center text-muted">Created with HTML and CSS</p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <a
+              href="https://www.shecodes.io/cohorts/shecodes-plus-5736e604-6b9d-41fd-b56c-9cf48bd5d0ba/projects/1815365"
+              target="_blank"
+              title="Link to Keira's weather app, hosted on SheCodes.io website"
+              ><img
+                src="images/my-weather-app.png"
+                alt=""
+                class="img-fluid rounded project-image"
+            /></a>
             <h3 class="text-center mb-0">Weather app</h3>
             <p class="text-center text-muted">
               Created with HTML, CSS and JavaScript
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img
-              src="images/world-clock-app.png"
-              alt=""
-              class="img-fluid rounded"
-            />
+            <a
+              href="https://www.shecodes.io/cohorts/shecodes-plus-add-on-01220374-d903-46e2-a8da-a8d9abdedc99/projects/1940767"
+              target="_blank"
+              title="Link to Keira's world clock app, hosted on SheCodes.io website"
+              ><img
+                src="images/world-clock-app.png"
+                alt=""
+                class="img-fluid rounded project-image"
+            /></a>
             <h3 class="text-center mb-0">World clock app</h3>
             <p class="text-center text-muted">
               Created with HTML, CSS and JavaScript
@@ -113,5 +185,57 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box mb-5 d-none d-md-flex justify-content-between">
+        <div>
+          <h3>Work enquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Keira's contact page"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:keira.a.burlinson@gmail.com"
+          class="email-link"
+          title="Keira's email-link"
+          >keira.a.burlinson@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.github.com/keira-bee"
+          target="_blank"
+          title="Keira's GitHub profile"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/keiraburlinson"
+          target="_blank"
+          title="Keira's LinkedIn profile"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/miss_keira_b"
+          target="_blank"
+          title="Keira's Instagram profile"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This website was coded by Keira Burlinson and is
+        <a
+          href="https://github.com/Keira-Bee/SheCodes-portfolio"
+          title="Keira Burlinson's GitHub profile"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
