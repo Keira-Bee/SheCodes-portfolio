@@ -203,10 +203,10 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     text-align: center;
-    font-size: 45px;
+    font-size: 30px;
   }
   h2 {
-    font-size: 40px;
+    font-size: 25px;
   }
   h3 {
     font-size: 26px;
@@ -217,6 +217,9 @@ footer .social-links a:hover {
   }
   .hero {
     padding: 60px 10px;
+  }
+  .content-container {
+    padding: 10px 20px 5px;
   }
   .content {
     text-align: center;
